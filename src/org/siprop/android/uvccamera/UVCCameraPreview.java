@@ -22,7 +22,7 @@ class UVCCameraPreview extends SurfaceView implements SurfaceHolder.Callback, Ru
 	private boolean shouldStop=false;
 	
 	// /dev/videoX with Required 666 permission
-	private int cameraId=4;
+	private int cameraId=0;
 	
 	static final int IMG_WIDTH=320;
 	static final int IMG_HEIGHT=240;
